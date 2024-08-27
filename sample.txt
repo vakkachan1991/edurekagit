@@ -1,3 +1,5 @@
 this is a sample file
 new changes
 one line added
+
+added this new line in branch bug 345
