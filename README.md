@@ -1,1 +1,1 @@
-# edu-git-demo is my code fuck you 
+# edu-git-demo is my 
