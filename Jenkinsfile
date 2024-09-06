@@ -10,19 +10,19 @@ pipeline {
         stage('Setup Python Environment') {
             steps {
                 // Install dependencies
-                sh 'python -m pip install --upgrade pip'
+                sh 'python3 -m pip install --upgrade pip'
             }
         }
         stage('Run Python Script') {
             steps {
                 // Run the Python script
-                sh 'python hello.py'
+                sh 'python3 hello.py'
             }
         }
         stage('Run Tests') {
             steps {
                 // Run tests using unittest
-                sh 'python -m unittest discover'
+                sh 'python3 -m unittest discover'
             }
         }
     }
