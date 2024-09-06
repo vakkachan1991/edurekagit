@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Run Tests') {
             steps {
-  // Run tests using unittest
+                // Run tests using unittest
                 sh 'python -m unittest discover'
             }
         }
@@ -33,9 +33,9 @@ pipeline {
         success {
             echo 'Build succeeded!'
         }
+
         failure {
             echo 'Build failed.'
         }
     }
 }
-
